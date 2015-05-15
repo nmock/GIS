@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3558D4A8DC5F067FE3E6C2BD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBFDD325E41A1662C15BB1B /* libPods.a */; };
+		E89820691B052F96002B6343 /* UIColor+LightAndDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E89820681B052F96002B6343 /* UIColor+LightAndDark.m */; };
+		E8999B3C1B055DCC00CB65F8 /* GISearchHistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8999B3B1B055DCC00CB65F8 /* GISearchHistoryManager.m */; };
+		E8E4003D1B04538D00A3B64F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E4003C1B04538D00A3B64F /* main.m */; };
+		E8E400401B04538D00A3B64F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E4003F1B04538D00A3B64F /* AppDelegate.m */; };
+		E8E400431B04538D00A3B64F /* GIImageSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E400421B04538D00A3B64F /* GIImageSearchViewController.m */; };
+		E8E4004B1B04538E00A3B64F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8E400491B04538E00A3B64F /* LaunchScreen.xib */; };
+		E8F918C61B04613A00635A06 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = E8F918C51B04613A00635A06 /* Utilities */; };
+		E8F918C81B04620300635A06 /* UIColor+BFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F918C71B04620300635A06 /* UIColor+BFKit.m */; };
+		E8F918CC1B0472D300635A06 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = E8F918CB1B0472D300635A06 /* Assets */; };
+		E8F918D11B04758500635A06 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8F918D01B04758500635A06 /* OpenSans-Regular.ttf */; };
+		E8F918D41B04777000635A06 /* GIImagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F918D31B04777000635A06 /* GIImagesManager.m */; };
+		E8F918D91B04832500635A06 /* GIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F918D81B04832500635A06 /* GIImage.m */; };
+		E8F918DC1B048CB700635A06 /* GIImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F918DB1B048CB700635A06 /* GIImageCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABBFDD325E41A1662C15BB1B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80594C305E898306EB68BFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E89820681B052F96002B6343 /* UIColor+LightAndDark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LightAndDark.m"; path = "GoogleImages/Utilities/UIColor+LightAndDark.m"; sourceTree = "<group>"; };
+		E8999B3A1B055DCC00CB65F8 /* GISearchHistoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GISearchHistoryManager.h; sourceTree = "<group>"; };
+		E8999B3B1B055DCC00CB65F8 /* GISearchHistoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GISearchHistoryManager.m; sourceTree = "<group>"; };
+		E8C38CCB1B067BC50065CC93 /* GIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIConstants.h; sourceTree = "<group>"; };
+		E8E400371B04538D00A3B64F /* GoogleImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E4003B1B04538D00A3B64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E4003C1B04538D00A3B64F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8E4003E1B04538D00A3B64F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8E4003F1B04538D00A3B64F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8E400411B04538D00A3B64F /* GIImageSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIImageSearchViewController.h; sourceTree = "<group>"; };
+		E8E400421B04538D00A3B64F /* GIImageSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIImageSearchViewController.m; sourceTree = "<group>"; };
+		E8E4004A1B04538E00A3B64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E8F918C51B04613A00635A06 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
+		E8F918C71B04620300635A06 /* UIColor+BFKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BFKit.m"; path = "GoogleImages/Utilities/UIColor+BFKit.m"; sourceTree = "<group>"; };
+		E8F918CB1B0472D300635A06 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		E8F918D01B04758500635A06 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "GoogleImages/Assets/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		E8F918D21B04777000635A06 /* GIImagesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIImagesManager.h; sourceTree = "<group>"; };
+		E8F918D31B04777000635A06 /* GIImagesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIImagesManager.m; sourceTree = "<group>"; };
+		E8F918D71B04832500635A06 /* GIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIImage.h; sourceTree = "<group>"; };
+		E8F918D81B04832500635A06 /* GIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIImage.m; sourceTree = "<group>"; };
+		E8F918DA1B048CB700635A06 /* GIImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIImageCollectionViewCell.h; sourceTree = "<group>"; };
+		E8F918DB1B048CB700635A06 /* GIImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIImageCollectionViewCell.m; sourceTree = "<group>"; };
+		EB40CCE394F8A4EE3026EFC0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8E400341B04538D00A3B64F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3558D4A8DC5F067FE3E6C2BD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51BCBCDBB14ECC48BDAB1CC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB40CCE394F8A4EE3026EFC0 /* Pods.debug.xcconfig */,
+				D80594C305E898306EB68BFF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8E4002E1B04538D00A3B64F = {
+			isa = PBXGroup;
+			children = (
+				E89820681B052F96002B6343 /* UIColor+LightAndDark.m */,
+				E8F918D01B04758500635A06 /* OpenSans-Regular.ttf */,
+				E8F918C71B04620300635A06 /* UIColor+BFKit.m */,
+				E8E400391B04538D00A3B64F /* GoogleImages */,
+				E8E400381B04538D00A3B64F /* Products */,
+				51BCBCDBB14ECC48BDAB1CC6 /* Pods */,
+				FF446767946FB25D7366A94F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8E400381B04538D00A3B64F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8E400371B04538D00A3B64F /* GoogleImages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8E400391B04538D00A3B64F /* GoogleImages */ = {
+			isa = PBXGroup;
+			children = (
+				E8E4003E1B04538D00A3B64F /* AppDelegate.h */,
+				E8E4003F1B04538D00A3B64F /* AppDelegate.m */,
+				E8C38CCB1B067BC50065CC93 /* GIConstants.h */,
+				E8F918D51B04777800635A06 /* Model */,
+				E8F918CF1B0473BA00635A06 /* View Controllers */,
+				E8F918DD1B048CCA00635A06 /* Views */,
+				E8F918CB1B0472D300635A06 /* Assets */,
+				E8F918C51B04613A00635A06 /* Utilities */,
+				E8E4003A1B04538D00A3B64F /* Supporting Files */,
+			);
+			path = GoogleImages;
+			sourceTree = "<group>";
+		};
+		E8E4003A1B04538D00A3B64F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8E4003B1B04538D00A3B64F /* Info.plist */,
+				E8E4003C1B04538D00A3B64F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8F918CF1B0473BA00635A06 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8E400411B04538D00A3B64F /* GIImageSearchViewController.h */,
+				E8E400421B04538D00A3B64F /* GIImageSearchViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E8F918D51B04777800635A06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8F918D21B04777000635A06 /* GIImagesManager.h */,
+				E8F918D31B04777000635A06 /* GIImagesManager.m */,
+				E8999B3A1B055DCC00CB65F8 /* GISearchHistoryManager.h */,
+				E8999B3B1B055DCC00CB65F8 /* GISearchHistoryManager.m */,
+				E8F918D71B04832500635A06 /* GIImage.h */,
+				E8F918D81B04832500635A06 /* GIImage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E8F918DD1B048CCA00635A06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8E400491B04538E00A3B64F /* LaunchScreen.xib */,
+				E8F918DA1B048CB700635A06 /* GIImageCollectionViewCell.h */,
+				E8F918DB1B048CB700635A06 /* GIImageCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FF446767946FB25D7366A94F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABBFDD325E41A1662C15BB1B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8E400361B04538D00A3B64F /* GoogleImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E4005A1B04538E00A3B64F /* Build configuration list for PBXNativeTarget "GoogleImages" */;
+			buildPhases = (
+				7650008CE8797E16CFA6BD19 /* Check Pods Manifest.lock */,
+				E8E400331B04538D00A3B64F /* Sources */,
+				E8E400341B04538D00A3B64F /* Frameworks */,
+				E8E400351B04538D00A3B64F /* Resources */,
+				E366197D6A55B786A792F8D9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleImages;
+			productName = GoogleImages;
+			productReference = E8E400371B04538D00A3B64F /* GoogleImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8E4002F1B04538D00A3B64F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nathan Mock";
+				TargetAttributes = {
+					E8E400361B04538D00A3B64F = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A5PQ8S5F4J;
+					};
+				};
+			};
+			buildConfigurationList = E8E400321B04538D00A3B64F /* Build configuration list for PBXProject "GoogleImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8E4002E1B04538D00A3B64F;
+			productRefGroup = E8E400381B04538D00A3B64F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8E400361B04538D00A3B64F /* GoogleImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8E400351B04538D00A3B64F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F918D11B04758500635A06 /* OpenSans-Regular.ttf in Resources */,
+				E8E4004B1B04538E00A3B64F /* LaunchScreen.xib in Resources */,
+				E8F918CC1B0472D300635A06 /* Assets in Resources */,
+				E8F918C61B04613A00635A06 /* Utilities in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7650008CE8797E16CFA6BD19 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E366197D6A55B786A792F8D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8E400331B04538D00A3B64F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89820691B052F96002B6343 /* UIColor+LightAndDark.m in Sources */,
+				E8F918DC1B048CB700635A06 /* GIImageCollectionViewCell.m in Sources */,
+				E8F918D41B04777000635A06 /* GIImagesManager.m in Sources */,
+				E8F918C81B04620300635A06 /* UIColor+BFKit.m in Sources */,
+				E8E400431B04538D00A3B64F /* GIImageSearchViewController.m in Sources */,
+				E8999B3C1B055DCC00CB65F8 /* GISearchHistoryManager.m in Sources */,
+				E8F918D91B04832500635A06 /* GIImage.m in Sources */,
+				E8E400401B04538D00A3B64F /* AppDelegate.m in Sources */,
+				E8E4003D1B04538D00A3B64F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8E400491B04538E00A3B64F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E4004A1B04538E00A3B64F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8E400581B04538E00A3B64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8E400591B04538E00A3B64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8E4005B1B04538E00A3B64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB40CCE394F8A4EE3026EFC0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "./**";
+				INFOPLIST_FILE = GoogleImages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E8E4005C1B04538E00A3B64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80594C305E898306EB68BFF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "./**";
+				INFOPLIST_FILE = GoogleImages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8E400321B04538D00A3B64F /* Build configuration list for PBXProject "GoogleImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E400581B04538E00A3B64F /* Debug */,
+				E8E400591B04538E00A3B64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E4005A1B04538E00A3B64F /* Build configuration list for PBXNativeTarget "GoogleImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E4005B1B04538E00A3B64F /* Debug */,
+				E8E4005C1B04538E00A3B64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8E4002F1B04538D00A3B64F /* Project object */;
+}
