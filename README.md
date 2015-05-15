@@ -5,8 +5,6 @@ This is a simple utility to search for images using the [`Google Images API`](ht
 
 Demonstrates Pinterest-esque layout, hiding navigation bar on scroll, recent searches, and auto-complete.
 
-If you have any questions, email me at nathan@nathanmock.com or create a new issue with specifics.
-
 ## Demo
 ![Google Image Search Demo](http://i.imgur.com/D3QL0pd.gif)
 
@@ -26,9 +24,6 @@ Google seems to be rate limiting the endpoint, so we are delaying auto-complete 
 GIS for iOS is released under a slightly modified [Simplified BSD License](https://github.com/nmock/artisan-ios/blob/master/LICENSE).
 
 Please don't upload this code directly to the App Store as is without making subsantial improvements.
-
-## Contributing
-If you want to fix bugs or implement new features, have at it! All that I ask is that you make proper attributions. 
 
 
 ## Known Bugs / Possible improvements
